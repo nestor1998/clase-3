@@ -7,9 +7,78 @@
 }
 
 body {
-    background-color: rgb(245, 97, 97);
+    background-color: #faeeee;
     font-family: "Montserrat", sans-serif;
     margin: 5%;
     line-height: 1.6;
 }
 
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    color: #00eaff;
+    padding: 20px 0;
+    border-radius: 8px 8px 0 0;
+    background-image: url(./img/fotofondo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header figure img {
+    border-radius: 50%;
+    border: 5px solid rgb(25, 25, 239);
+    box-shadow: 0 0 20px 10px rgb(0, 0, 0);
+}
+
+header h1{
+    font-size: 1.2em;
+    opacity: 0.7;
+    margin-top: 10px;
+}
+
+header h2{
+    font-size: 1.2em;
+    opacity: 0.7;
+}
+
+.container {
+    background-color:blue;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.contenedor_foto_perfil {
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    border: 7px solid #0ebaba;
+    margin: 5%;
+    box-shadow: 0 0 10px 10px white;
+}
+
+.contenedor_foto_perfil img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.cabezera {
+    position: relative;
+}
+
+.nombre_puesto {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1%;
+    text-shadow: 0 0 20px 10px rgb(255, 255, 255);
+}
